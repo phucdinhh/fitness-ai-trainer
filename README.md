@@ -1,4 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fitness AI Trainer
+
+A personalized fitness training application powered by AI, built with Next.js and Convex backend.
+
+## Features
+
+- 🤖 AI-powered workout program generation
+- 👤 User profiles and authentication
+- 📱 Responsive design for all devices
+- 📊 Personal fitness tracking
+- ✨ Modern and intuitive user interface
+
+## Tech Stack
+
+- [Next.js 14](https://nextjs.org/) - React framework
+- [Convex](https://www.convex.dev/) - Backend and database
+- [Clerk](https://clerk.com/) - Authentication
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [Shadcn/ui](https://ui.shadcn.com/) - UI components
 
 ## Getting Started
 
@@ -16,9 +34,21 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Environment Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone the repository
+2. Install dependencies using your preferred package manager
+3. Set up environment variables:
+   - Configure Clerk authentication
+   - Set up Convex backend
+
+## Project Structure
+
+- `app/*` - Application routes and pages
+- `components/*` - Reusable UI components
+- `convex/*` - Backend API and database schema
+- `lib/*` - Utility functions and shared logic
+- `providers/*` - React context providers
 
 ## Learn More
 
